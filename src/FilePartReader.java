@@ -25,10 +25,10 @@ public class FilePartReader {
         BufferedReader bufferedReader = new BufferedReader(fileReader);
 
         String content = "";
-        String currentLine = bufferedReader.readLine();
+        String currentLine;
 
-        while (currentLine != "") {
-            content += currentLine;
+        while ((currentLine = bufferedReader.readLine()) != null) {
+            content += currentLine + "\n";
         }
 
         return content;
@@ -42,7 +42,7 @@ public class FilePartReader {
         String[] lines = content.split("\n");
 
         for (int temp = 0; temp < content.length(); temp++) {
-            if (temp <= (fromLine - 1) && temp < toLine) {
+            if (temp >= (fromLine - 1) && temp < toLine) {
                 stringBuilder.append(lines[temp] + "\n");
             }
         }
