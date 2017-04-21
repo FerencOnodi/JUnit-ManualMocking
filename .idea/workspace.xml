@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="055ff1eb-a0c6-466c-a328-b09acfba95c5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JUnit-ManualMocking.iml" afterPath="$PROJECT_DIR$/JUnit-ManualMocking.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FilePartReader.java" afterPath="$PROJECT_DIR$/src/FilePartReader.java" />
-    </list>
+    <list default="true" id="055ff1eb-a0c6-466c-a328-b09acfba95c5" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,6 +12,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/JUnit-ManualMocking$FPReaderTest.coverage" NAME="FPReaderTest Coverage Results" MODIFIED="1492774430123" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/JUnit-ManualMocking$FWAnalyzerTest_wordsContainingSubStringTest.coverage" NAME="FWAnalyzerTest.wordsContainingSubStringTest Coverage Results" MODIFIED="1492775216950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -26,7 +23,7 @@
       <file leaf-file-name="FilePartReader.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/FilePartReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
+            <state relative-caret-position="679">
               <caret line="49" column="42" lean-forward="true" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -38,21 +35,41 @@
       <file leaf-file-name="FileWordAnalyzer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/FileWordAnalyzer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="558">
-              <caret line="36" column="40" lean-forward="false" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
+            <state relative-caret-position="180">
+              <caret line="10" column="34" lean-forward="true" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#285#286#0" expanded="true" />
-                <element signature="e#337#338#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FPReaderTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestSuite.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Test/TestSuite.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FWAnalyzerTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Test/FWAnalyzerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="283">
+              <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FPReaderTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Test/FPReaderTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
+            <state relative-caret-position="342">
               <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -64,8 +81,8 @@
       <file leaf-file-name="Test.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Test.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="5" lean-forward="false" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+            <state relative-caret-position="144">
+              <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -96,6 +113,7 @@
         <option value="$PROJECT_DIR$/src/FileWordAnalyzer.java" />
         <option value="$PROJECT_DIR$/src/FilePartReader.java" />
         <option value="$PROJECT_DIR$/Test/FPReaderTest.java" />
+        <option value="$PROJECT_DIR$/Test/FWAnalyzerTest.java" />
       </list>
     </option>
   </component>
@@ -184,7 +202,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FPReaderTest">
+  <component name="RunManager" selected="JUnit.FWAnalyzerTest.wordsContainingSubStringTest">
     <configuration default="false" name="FPReaderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="JUnit-ManualMocking" />
@@ -235,6 +253,48 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="FPReaderTest" />
       <option name="METHOD_NAME" value="IllegalArgumentExceptionTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="FWAnalyzerTest.wordsByABCTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="JUnit-ManualMocking" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FWAnalyzerTest" />
+      <option name="METHOD_NAME" value="wordsByABCTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="FWAnalyzerTest.wordsContainingSubStringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="JUnit-ManualMocking" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FWAnalyzerTest" />
+      <option name="METHOD_NAME" value="wordsContainingSubStringTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -628,16 +688,20 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="3">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.FPReaderTest" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.FPReaderTest.readLinesTest" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.FPReaderTest.IllegalArgumentExceptionTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.FWAnalyzerTest.wordsByABCTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.FWAnalyzerTest.wordsContainingSubStringTest" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.FPReaderTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.FPReaderTest.IllegalArgumentExceptionTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.FPReaderTest.readLinesTest" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.FWAnalyzerTest.wordsContainingSubStringTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.FWAnalyzerTest.wordsByABCTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.FPReaderTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.FPReaderTest.IllegalArgumentExceptionTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.FPReaderTest.readLinesTest" />
       </list>
     </recent_temporary>
   </component>
@@ -652,7 +716,7 @@
       <option name="presentableId" value="Default" />
       <updated>1492769328402</updated>
       <workItem from="1492769333564" duration="4507000" />
-      <workItem from="1492773902472" duration="558000" />
+      <workItem from="1492773902472" duration="1445000" />
     </task>
     <servers />
   </component>
@@ -675,21 +739,21 @@
     <history-entry file="FPReaderTest - 2017.04.21 at 13h 33m 52s.xml">
       <configuration name="FPReaderTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FPReaderTest_IllegalArgumentExceptionTest - 2017.04.21 at 13h 26m 22s.xml">
-      <configuration name="FPReaderTest.IllegalArgumentExceptionTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FPReaderTest_IllegalArgumentExceptionTest - 2017.04.21 at 13h 26m 25s.xml">
-      <configuration name="FPReaderTest.IllegalArgumentExceptionTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="FPReaderTest_IllegalArgumentExceptionTest - 2017.04.21 at 13h 27m 27s.xml">
       <configuration name="FPReaderTest.IllegalArgumentExceptionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FPReaderTest_readLinesTest - 2017.04.21 at 13h 23m 49s.xml">
-      <configuration name="FPReaderTest.readLinesTest" configurationId="JUnit" />
+    <history-entry file="FWAnalyzerTest_wordsByABCTest - 2017.04.21 at 13h 43m 57s.xml">
+      <configuration name="FWAnalyzerTest.wordsByABCTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FWAnalyzerTest_wordsContainingSubStringTest - 2017.04.21 at 13h 46m 46s.xml">
+      <configuration name="FWAnalyzerTest.wordsContainingSubStringTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FWAnalyzerTest_wordsContainingSubStringTest - 2017.04.21 at 13h 46m 58s.xml">
+      <configuration name="FWAnalyzerTest.wordsContainingSubStringTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5065000" />
+    <option name="totallyTimeSpent" value="5952000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
@@ -711,7 +775,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25338647" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16175298" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -760,8 +824,6 @@
           <caret line="36" column="40" lean-forward="false" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#285#286#0" expanded="true" />
-            <element signature="e#337#338#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -785,18 +847,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/FileWordAnalyzer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="36" column="40" lean-forward="false" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#285#286#0" expanded="true" />
-            <element signature="e#337#338#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/junit/lib/junit-jupiter-api-5.0.0-M3.jar!/org/junit/jupiter/api/Test.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -813,17 +863,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="5" lean-forward="false" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/FilePartReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
+        <state relative-caret-position="679">
           <caret line="49" column="42" lean-forward="true" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -831,13 +873,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Test/FPReaderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
+        <state relative-caret-position="342">
           <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/FWAnalyzerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FileWordAnalyzer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="34" lean-forward="true" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/TestSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
